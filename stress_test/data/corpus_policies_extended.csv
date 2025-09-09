@@ -1,0 +1,42 @@
+policy_id,policy_name,year_created,year_terminated,parent_policy,policy_type,government,survival_years,descendants_count,ideological_orientation
+ARG_AGUINALDO_1945,Aguinaldo - Sueldo Anual Complementario,1945,,NA,Labor,Peron,80,4,Populist
+ARG_AGUINALDO_1975,Aguinaldo en Dos Cuotas,1975,,ARG_AGUINALDO_1945,Labor,Peron,50,2,Populist
+ARG_AGUINALDO_2001,Aguinaldo durante Crisis 2001,2001,,ARG_AGUINALDO_1975,Labor,De la Rua,24,2,Populist
+ARG_AGUINALDO_2020,Aguinaldo durante Pandemia COVID,2020,,ARG_AGUINALDO_2001,Labor,Alberto Fernandez,5,0,Populist
+ARG_AGUINALDO_JUBILADOS,Aguinaldo para Jubilados,2008,,ARG_AGUINALDO_2001,Social Security,Cristina Kirchner,17,0,Populist
+URU_SALARIO_VACACIONAL,Salario Vacacional Uruguay,1950,,NA,Labor,Batlle,75,2,Social_Democratic
+URU_SALARIO_VAC_1985,Salario Vacacional Crisis 1985,1985,,URU_SALARIO_VACACIONAL,Labor,Sanguinetti,40,1,Social_Democratic
+URU_SALARIO_VAC_2005,Salario Vacacional Consejos Salarios,2005,,URU_SALARIO_VAC_1985,Labor,Vazquez,20,0,Social_Democratic
+ARG_OBRAS_SOCIALES_1970,Sistema Nacional Obras Sociales,1970,,NA,Health,Military,55,4,Populist
+ARG_INSSJP_1971,INSSJP - Jubilados y Pensionados,1971,,ARG_OBRAS_SOCIALES_1970,Health,Military,54,2,Populist
+ARG_OS_PAMI,PAMI - Atencion Medica Integral,1978,,ARG_INSSJP_1971,Health,Military,47,2,Populist
+ARG_PMO_1996,Programa Medico Obligatorio,1996,,ARG_OBRAS_SOCIALES_1970,Health,Menem,29,1,Liberal
+ARG_SEVERANCE_1974,Indemnizacion por Despido,1974,,NA,Labor,Peron,51,3,Populist
+ARG_FLEXIBILIZACION_1995,Flexibilizacion Laboral Menem,1995,2004,ARG_SEVERANCE_1974,Labor,Menem,9,1,Liberal
+ARG_DEROGACION_FLEX_2004,Derogacion Flexibilizacion,2004,,ARG_FLEXIBILIZACION_1995,Labor,Kirchner,21,1,Populist
+ARG_REFORMA_LABORAL_2017,Reforma Laboral Macri,2017,2017,ARG_DEROGACION_FLEX_2004,Labor,Macri,0,0,Liberal
+ARG_PARITARIAS_1953,Convenios Colectivos y Paritarias,1953,,NA,Labor,Peron,72,6,Populist
+ARG_PARITARIAS_1975,Suspension Paritarias 1975,1975,1983,ARG_PARITARIAS_1953,Labor,Isabel Peron,8,1,Populist
+ARG_PARITARIAS_MILITAR,Prohibicion Paritarias Dictadura,1976,1983,ARG_PARITARIAS_1975,Labor,Military,7,1,Authoritarian
+ARG_PARITARIAS_1988,Restauracion Paritarias 1988,1988,,ARG_PARITARIAS_MILITAR,Labor,Alfonsin,37,2,Democratic
+ARG_PARITARIAS_CONVERTIBILIDAD,Paritarias bajo Convertibilidad,1991,2001,ARG_PARITARIAS_1988,Labor,Menem,10,1,Liberal
+ARG_PARITARIAS_2004,Relanzamiento Paritarias 2004,2004,,ARG_PARITARIAS_CONVERTIBILIDAD,Labor,Kirchner,21,1,Populist
+ARG_CONVERTIBILIDAD_1991,Convertibilidad Peso-Dolar,1991,2001,NA,Monetary,Menem,10,2,Liberal
+ARG_CONV_BLINDAJE_2001,Blindaje Financiero 2001,2001,2001,ARG_CONVERTIBILIDAD_1991,Monetary,De la Rua,0,1,Liberal
+ARG_CORRALITO_2001,Restriccion Depositos Bancarios,2001,2002,ARG_CONV_BLINDAJE_2001,Financial,Cavallo,1,1,Crisis
+ARG_PESIFICACION_2002,Pesificacion y Fin Convertibilidad,2002,,ARG_CORRALITO_2001,Monetary,Duhalde,23,2,Crisis
+ARG_AFJP_1994,Sistema Privado AFJP,1994,2008,NA,Social Security,Menem,14,1,Liberal
+ARG_AFJP_CRISIS_2001,Crisis AFJP 2001,2001,2008,ARG_AFJP_1994,Social Security,Crisis 2001,7,1,Liberal
+ARG_ESTATIZACION_AFJP_2008,Estatizacion AFJP,2008,,ARG_AFJP_CRISIS_2001,Social Security,Cristina Kirchner,17,1,Populist
+ARG_APERTURA_2016,Apertura Comercial Macri,2016,2019,NA,Trade,Macri,3,1,Liberal
+ARG_RETENCIONES_2018,Reimposicion Retenciones 2018,2018,2019,ARG_APERTURA_2016,Trade,Macri,1,1,Liberal
+ARG_RETENCIONES_2019,Aumento Retenciones 2019,2019,,ARG_RETENCIONES_2018,Trade,Alberto Fernandez,6,1,Populist
+ARG_CEPO_2011,Cepo Cambiario 2011,2011,2015,NA,Financial,Cristina Kirchner,4,2,Populist
+ARG_CEPO_ELIMINACION_2015,Eliminacion Cepo 2015,2015,2019,ARG_CEPO_2011,Financial,Macri,4,1,Liberal
+ARG_CEPO_2019,Reimposicion Cepo 2019,2019,,ARG_CEPO_ELIMINACION_2015,Financial,Alberto Fernandez,6,1,Populist
+CHI_AFP_1981,Sistema AFP Chile,1981,,NA,Social Security,Pinochet,44,3,Liberal
+CHI_AFP_REFORMA_2008,Reforma AFP - Pension Solidaria,2008,,CHI_AFP_1981,Social Security,Bachelet,17,2,Social_Democratic
+CHI_AFP_PROTESTAS_2016,Protestas No+AFP,2016,,CHI_AFP_REFORMA_2008,Social Security,Social Movement,9,1,Social
+URU_AFAP_1996,Sistema Mixto AFAP Uruguay,1996,,NA,Social Security,Sanguinetti,29,2,Liberal
+URU_AFAP_REFORMA_2008,Reforma Sistema Mixto 2008,2008,,URU_AFAP_1996,Social Security,Vazquez,17,1,Social_Democratic
+URU_AFAP_OPCION_2009,Opcion Sistema Publico,2009,,URU_AFAP_REFORMA_2008,Social Security,Vazquez,16,0,Social_Democratic

@@ -1,0 +1,4 @@
+policy_id,policy_name,category,jurisdiction,ideology,year_created,year_terminated,survival_years,is_active,descendants_count,ancestors_count,mean_inheritance,max_inheritance,extended_phenotype_score,memetic_fitness,network_degree,policy_family
+URU_SALARIO_VACACIONAL,Salario Vacacional Uruguay,regional_comparison,Uruguay,Social_Democratic,1950,,75,True,2,0,0.695,0.79,0.5488,0.6134,1,Labor_Benefits
+URU_AFAP_1996,Sistema Mixto AFAP Uruguay,regional_comparison,Uruguay,Liberal,1996,,29,True,2,0,0.575,0.628,0.4138,0.3756,1,Pension_Systems
+CHI_AFP_1981,Sistema AFP Chile,regional_comparison,Chile,Liberal,1981,,44,True,2,0,0.464,0.538,0.461,0.4003,1,Pension_Systems

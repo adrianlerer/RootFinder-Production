@@ -1,0 +1,11 @@
+policy_id,time,event,ideology,jurisdiction,category
+ARG_AGUINALDO_1945,80,0,Populist,Argentina,populist_argentina
+ARG_OBRAS_SOCIALES_1970,55,0,Populist,Argentina,populist_argentina
+ARG_SEVERANCE_1974,51,0,Populist,Argentina,populist_argentina
+ARG_PARITARIAS_1953,72,0,Populist,Argentina,populist_argentina
+ARG_CONVERTIBILIDAD_1991,10,1,Liberal,Argentina,liberal_argentina
+ARG_AFJP_1994,14,1,Liberal,Argentina,liberal_argentina
+ARG_APERTURA_2016,3,1,Liberal,Argentina,liberal_argentina
+URU_SALARIO_VACACIONAL,75,0,Social_Democratic,Uruguay,regional_comparison
+URU_AFAP_1996,29,0,Liberal,Uruguay,regional_comparison
+CHI_AFP_1981,44,0,Liberal,Chile,regional_comparison

@@ -1,0 +1,11 @@
+policy_id,policy_name,category,jurisdiction,ideology,year_created,year_terminated,survival_years,is_active,descendants_count,ancestors_count,mean_inheritance,max_inheritance,extended_phenotype_score,memetic_fitness,network_degree,policy_family
+ARG_AGUINALDO_1945,Aguinaldo - Sueldo Anual Complementario,populist_argentina,Argentina,Populist,1945,,80,True,4,0,0.58,0.82,0.695,0.716,1,Labor_Benefits
+ARG_OBRAS_SOCIALES_1970,Sistema Nacional Obras Sociales,populist_argentina,Argentina,Populist,1970,,55,True,3,0,0.7967,0.994,0.7242,0.6262,2,Healthcare
+ARG_SEVERANCE_1974,Indemnizacion por Despido,populist_argentina,Argentina,Populist,1974,,51,True,3,0,0.5453,0.72,0.6613,0.5634,1,Labor_Protection
+ARG_PARITARIAS_1953,Convenios Colectivos y Paritarias,populist_argentina,Argentina,Populist,1953,,72,True,5,0,0.5384,0.868,0.7096,0.6777,1,Collective_Bargaining
+ARG_CONVERTIBILIDAD_1991,Convertibilidad Peso-Dolar,liberal_argentina,Argentina,Liberal,1991,2001.0,10,False,3,0,0.5713,0.94,0.3428,0.3105,1,Monetary_Policy
+ARG_AFJP_1994,Sistema Privado AFJP,liberal_argentina,Argentina,Liberal,1994,2008.0,14,False,2,0,0.737,0.958,0.3793,0.3312,1,Pension_Systems
+ARG_APERTURA_2016,Apertura Comercial Macri,liberal_argentina,Argentina,Liberal,2016,2019.0,3,False,2,0,0.785,0.988,0.3362,0.3364,1,Trade_Policy
+URU_SALARIO_VACACIONAL,Salario Vacacional Uruguay,regional_comparison,Uruguay,Social_Democratic,1950,,75,True,2,0,0.695,0.79,0.5488,0.6134,1,Labor_Benefits
+URU_AFAP_1996,Sistema Mixto AFAP Uruguay,regional_comparison,Uruguay,Liberal,1996,,29,True,2,0,0.575,0.628,0.4138,0.3756,1,Pension_Systems
+CHI_AFP_1981,Sistema AFP Chile,regional_comparison,Chile,Liberal,1981,,44,True,2,0,0.464,0.538,0.461,0.4003,1,Pension_Systems

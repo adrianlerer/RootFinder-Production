@@ -1,0 +1,105 @@
+{
+  "overall_summary": {
+    "total_policies": 10,
+    "mean_survival": 43.3,
+    "median_survival": 47.5,
+    "active_policies": 7,
+    "terminated_policies": 3
+  },
+  "by_ideology": {
+    "Populist": {
+      "count": 4,
+      "mean_survival": 64.5,
+      "mean_inheritance": 0.6151,
+      "mean_memetic_fitness": 0.6458250000000001,
+      "active_rate": 1.0
+    },
+    "Liberal": {
+      "count": 5,
+      "mean_survival": 20.0,
+      "mean_inheritance": 0.62646,
+      "mean_memetic_fitness": 0.3508,
+      "active_rate": 0.4
+    },
+    "Social_Democratic": {
+      "count": 1,
+      "mean_survival": 75.0,
+      "mean_inheritance": 0.695,
+      "mean_memetic_fitness": 0.6134,
+      "active_rate": 1.0
+    }
+  },
+  "by_jurisdiction": {
+    "Argentina": {
+      "count": 7,
+      "mean_survival": 40.714285714285715,
+      "mean_inheritance": 0.6505285714285715,
+      "most_persistent": "Aguinaldo - Sueldo Anual Complementario"
+    },
+    "Uruguay": {
+      "count": 2,
+      "mean_survival": 52.0,
+      "mean_inheritance": 0.635,
+      "most_persistent": "Salario Vacacional Uruguay"
+    },
+    "Chile": {
+      "count": 1,
+      "mean_survival": 44.0,
+      "mean_inheritance": 0.464,
+      "most_persistent": "Sistema AFP Chile"
+    }
+  },
+  "by_policy_family": {
+    "Labor_Benefits": {
+      "count": 2,
+      "mean_survival": 77.5,
+      "mean_fitness": 0.6647
+    },
+    "Healthcare": {
+      "count": 1,
+      "mean_survival": 55.0,
+      "mean_fitness": 0.6262
+    },
+    "Labor_Protection": {
+      "count": 1,
+      "mean_survival": 51.0,
+      "mean_fitness": 0.5634
+    },
+    "Collective_Bargaining": {
+      "count": 1,
+      "mean_survival": 72.0,
+      "mean_fitness": 0.6777
+    },
+    "Monetary_Policy": {
+      "count": 1,
+      "mean_survival": 10.0,
+      "mean_fitness": 0.3105
+    },
+    "Pension_Systems": {
+      "count": 3,
+      "mean_survival": 29.0,
+      "mean_fitness": 0.3690333333333333
+    },
+    "Trade_Policy": {
+      "count": 1,
+      "mean_survival": 3.0,
+      "mean_fitness": 0.3364
+    }
+  },
+  "survival_comparison": {
+    "populist_vs_liberal": {
+      "populist_mean_survival": 64.5,
+      "liberal_mean_survival": 20.0,
+      "survival_ratio": 3.225,
+      "populist_active_rate": 1.0,
+      "liberal_active_rate": 0.4,
+      "fitness_difference": 0.2950250000000001
+    },
+    "argentina_vs_regional": {
+      "argentina_mean_survival": 40.714285714285715,
+      "regional_mean_survival": 49.333333333333336,
+      "argentina_inheritance": 0.6505285714285715,
+      "regional_inheritance": 0.578
+    }
+  }
+}

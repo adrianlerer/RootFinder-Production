@@ -1,0 +1,4 @@
+policy_id,policy_name,category,jurisdiction,ideology,year_created,year_terminated,survival_years,is_active,descendants_count,ancestors_count,mean_inheritance,max_inheritance,extended_phenotype_score,memetic_fitness,network_degree,policy_family
+ARG_CONVERTIBILIDAD_1991,Convertibilidad Peso-Dolar,liberal_argentina,Argentina,Liberal,1991,2001,10,False,3,0,0.5713,0.94,0.3428,0.3105,1,Monetary_Policy
+ARG_AFJP_1994,Sistema Privado AFJP,liberal_argentina,Argentina,Liberal,1994,2008,14,False,2,0,0.737,0.958,0.3793,0.3312,1,Pension_Systems
+ARG_APERTURA_2016,Apertura Comercial Macri,liberal_argentina,Argentina,Liberal,2016,2019,3,False,2,0,0.785,0.988,0.3362,0.3364,1,Trade_Policy

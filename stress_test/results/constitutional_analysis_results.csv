@@ -1,0 +1,6 @@
+root_id,root_name,jurisdiction,year_created,survival_years,descendants_count,ancestors_count,mean_inheritance,max_inheritance,extended_phenotype_score,ideology,mutation_rate,network_centrality
+ARG_CN1853_ART19,Principio de Reserva Art 19 CN 1853,Argentina,1853,172,16,0,0.1411,0.658,0.6103,Conservative,0.003,2
+ARG_CN1860_ART19,Principio de Reserva Art 19 CN 1860,Argentina,1860,165,9,1,0.1667,0.6,0.5917,Liberal_Constitutional,0.003,4
+ARG_CN1994_ART19,Art 19 CN 1994 con Tratados DDHH,Argentina,1994,31,0,3,0.0,0.0,0.23,Liberal_Constitutional,0.0,1
+URU_CN1830_ART72,Derechos Implicitos Art 72 CN 1830,Uruguay,1830,195,2,0,0.35,0.4,0.4625,Liberal_Constitutional,0.0,1
+ARG_DOCTRINA_AMPARO,Doctrina Constitucional del Amparo,Argentina,1957,68,5,1,0.4188,0.772,0.5547,Constitutional,0.016,4

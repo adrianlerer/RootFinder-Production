@@ -1,0 +1,27 @@
+policy_id,policy_name,year_created,year_terminated,parent_policy,policy_type,government,survival_years,descendants_count,ideological_orientation
+ARG_CN1853_ART19,Principio de Reserva Art 19 CN 1853,1853,,NA,Constitutional,Constitutional Convention,172,3,Conservative
+ARG_CN1860_ART19,Principio de Reserva Art 19 CN 1860,1860,,ARG_CN1853_ART19,Constitutional,Constitutional Convention,165,5,Liberal_Constitutional
+ARG_CN1949_ART28,Derechos Sociales Art 28 CN 1949,1949,1957,ARG_CN1860_ART19,Constitutional,Peron,8,1,Populist
+ARG_CN1957_ART19,Restauracion Art 19 CN 1957,1957,,ARG_CN1860_ART19,Constitutional,Revolucion Libertadora,68,2,Conservative
+ARG_CN1994_ART19,Art 19 CN 1994 con Tratados DDHH,1994,,ARG_CN1957_ART19,Constitutional,Constitutional Convention,31,2,Liberal_Constitutional
+ARG_CSJN_SIRI,Doctrina Amparo - Caso Siri,1957,,ARG_CN1860_ART19,Jurisprudential,CSJN,68,8,Constitutional
+ARG_CSJN_KOT,Amparo vs Particulares - Caso Kot,1958,,ARG_CSJN_SIRI,Jurisprudential,CSJN,67,6,Constitutional
+ARG_LEY_16986,Ley de Amparo 16986,1966,,ARG_CSJN_KOT,Legislative,Military Government,59,5,Constitutional
+ARG_CSJN_PERALTA,Amparo vs Emergencia - Caso Peralta,1990,,ARG_LEY_16986,Jurisprudential,CSJN,35,4,Constitutional
+ARG_CSJN_HALABI,Amparo Colectivo - Caso Halabi,2009,,ARG_LEY_16986,Jurisprudential,CSJN,16,1,Constitutional
+ARG_CSJN_Q_C_S_Y,Amparo Identidad - Caso Q.C.S.Y,2012,,ARG_CSJN_HALABI,Jurisprudential,CSJN,13,0,Constitutional
+URU_CN1830_ART72,Derechos Implicitos Art 72 CN 1830,1830,,NA,Constitutional,Constitutional Convention,195,4,Liberal_Constitutional
+URU_CN1918_ART72,Art 72 CN 1918 - Democracia,1918,,URU_CN1830_ART72,Constitutional,Constitutional Convention,107,2,Democratic
+URU_CN1934_ART72,Art 72 CN 1934 - Crisis Terra,1934,1942,URU_CN1918_ART72,Constitutional,Terra Government,8,1,Authoritarian
+URU_CN1942_ART72,Art 72 CN 1942 - Restauracion,1942,,URU_CN1834_ART72,Constitutional,Democratic Restoration,83,2,Democratic
+URU_CN1967_ART72,Art 72 CN 1967 - Texto Vigente,1967,,URU_CN1942_ART72,Constitutional,Constitutional Convention,58,4,Liberal_Constitutional
+URU_SCJ_TOURNIER,Vida Privada - Caso Tournier,1988,,URU_CN1967_ART72,Jurisprudential,Supreme Court,37,3,Constitutional
+URU_SCJ_MECHOSO,Identidad Genetica - Caso Mechoso,2004,,URU_SCJ_TOURNIER,Jurisprudential,Supreme Court,21,2,Constitutional
+URU_SCJ_CASACION_2010,Due Process - Casacion Penal,2010,,URU_SCJ_MECHOSO,Jurisprudential,Supreme Court,15,1,Constitutional
+URU_SCJ_NIBIA_REISCH,Violencia Domestica - Nibia Reisch,2013,,URU_SCJ_CASACION_2010,Jurisprudential,Supreme Court,12,0,Constitutional
+ARG_DOCTRINA_AMPARO,Doctrina Constitucional del Amparo,1957,,ARG_CN1853_ART19,Doctrinal,Academic Doctrine,68,5,Constitutional
+ARG_AMPARO_AMBIENTAL,Amparo Ambiental - Doctrina,1990,,ARG_DOCTRINA_AMPARO,Doctrinal,Academic Doctrine,35,2,Environmental
+ARG_AMPARO_COLECTIVO,Amparo Colectivo - Doctrina,2000,,ARG_DOCTRINA_AMPARO,Doctrinal,Academic Doctrine,25,1,Constitutional
+ARG_AMPARO_POR_MORA,Amparo por Mora - Doctrina,1995,,ARG_DOCTRINA_AMPARO,Doctrinal,Academic Doctrine,30,2,Constitutional
+ARG_CN1994_ART41,Derecho Ambiente Art 41 CN 1994,1994,,ARG_AMPARO_AMBIENTAL,Constitutional,Constitutional Convention,31,2,Environmental
+ARG_CSJN_MENDOZA,Amparo Ambiental - Caso Mendoza,2008,,ARG_CN1994_ART41,Jurisprudential,CSJN,17,0,Environmental

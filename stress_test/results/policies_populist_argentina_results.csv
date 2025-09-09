@@ -1,0 +1,5 @@
+policy_id,policy_name,category,jurisdiction,ideology,year_created,year_terminated,survival_years,is_active,descendants_count,ancestors_count,mean_inheritance,max_inheritance,extended_phenotype_score,memetic_fitness,network_degree,policy_family
+ARG_AGUINALDO_1945,Aguinaldo - Sueldo Anual Complementario,populist_argentina,Argentina,Populist,1945,,80,True,4,0,0.58,0.82,0.695,0.716,1,Labor_Benefits
+ARG_OBRAS_SOCIALES_1970,Sistema Nacional Obras Sociales,populist_argentina,Argentina,Populist,1970,,55,True,3,0,0.7967,0.994,0.7242,0.6262,2,Healthcare
+ARG_SEVERANCE_1974,Indemnizacion por Despido,populist_argentina,Argentina,Populist,1974,,51,True,3,0,0.5453,0.72,0.6613,0.5634,1,Labor_Protection
+ARG_PARITARIAS_1953,Convenios Colectivos y Paritarias,populist_argentina,Argentina,Populist,1953,,72,True,5,0,0.5384,0.868,0.7096,0.6777,1,Collective_Bargaining

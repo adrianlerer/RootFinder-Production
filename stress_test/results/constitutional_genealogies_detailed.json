@@ -1,0 +1,92 @@
+{
+  "ARG_CN1853_ART19": {
+    "lineage_data": "{\n  \"root\": {\n    \"id\": \"ARG_CN1853_ART19\",\n    \"name\": \"Principio de Reserva Art 19 CN 1853\",\n    \"year\": 1853,\n    \"survival_years\": 172\n  },\n  \"ancestors\": [],\n  \"descendants\": [\n    {\n      \"id\": \"ARG_CSJN_SIRI\",\n      \"name\": \"Doctrina Amparo - Caso Siri\",\n      \"year\": 1957,\n      \"inheritance\": 0.0\n    },\n    {\n      \"id\": \"ARG_AMPARO_COLECTIVO\",\n      \"name\": \"Amparo Colectivo - Doctrina\",\n      \"year\": 2000,\n      \"inheritance\": 0.0\n    },\n    {\n      \"id\": \"ARG_AMPARO_POR_MORA\",\n      \"name\": \"Amparo por Mora - Doctrina\",\n      \"year\": 1995,\n      \"inheritance\": 0.0\n    },\n    {\n      \"id\": \"ARG_CSJN_MENDOZA\",\n      \"name\": \"Amparo Ambiental - Caso Mendoza\",\n      \"year\": 2008,\n      \"inheritance\": 0.0\n    },\n    {\n      \"id\": \"ARG_CN1949_ART28\",\n      \"name\": \"Derechos Sociales Art 28 CN 1949\",\n      \"year\": 1949,\n      \"inheritance\": 0.3\n    },\n    {\n      \"id\": \"ARG_DOCTRINA_AMPARO\",\n      \"name\": \"Doctrina Constitucional del Amparo\",\n      \"year\": 1957,\n      \"inheritance\": 0.1\n    },\n    {\n      \"id\": \"ARG_CN1994_ART41\",\n      \"name\": \"Derecho Ambiente Art 41 CN 1994\",\n      \"year\": 1994,\n      \"inheritance\": 0.3\n    },\n    {\n      \"id\": \"ARG_CSJN_PERALTA\",\n      \"name\": \"Amparo vs Emergencia - Caso Peralta\",\n      \"year\": 1990,\n      \"inheritance\": 0.0\n    },\n    {\n      \"id\": \"ARG_CN1860_ART19\",\n      \"name\": \"Principio de Reserva Art 19 CN 1860\",\n      \"year\": 1860,\n      \"inheritance\": 0.658\n    },\n    {\n      \"id\": \"ARG_CN1994_ART19\",\n      \"name\": \"Art 19 CN 1994 con Tratados DDHH\",\n      \"year\": 1994,\n      \"inheritance\": 0.3\n    },\n    {\n      \"id\": \"ARG_CSJN_HALABI\",\n      \"name\": \"Amparo Colectivo - Caso Halabi\",\n      \"year\": 2009,\n      \"inheritance\": 0.0\n    },\n    {\n      \"id\": \"ARG_LEY_16986\",\n      \"name\": \"Ley de Amparo 16986\",\n      \"year\": 1966,\n      \"inheritance\": 0.0\n    },\n    {\n      \"id\": \"ARG_CSJN_KOT\",\n      \"name\": \"Amparo vs Particulares - Caso Kot\",\n      \"year\": 1958,\n      \"inheritance\": 0.0\n    },\n    {\n      \"id\": \"ARG_CSJN_Q_C_S_Y\",\n      \"name\": \"Amparo Identidad - Caso Q.C.S.Y\",\n      \"year\": 2012,\n      \"inheritance\": 0.0\n    },\n    {\n      \"id\": \"ARG_AMPARO_AMBIENTAL\",\n      \"name\": \"Amparo Ambiental - Doctrina\",\n      \"year\": 1990,\n      \"inheritance\": 0.0\n    },\n    {\n      \"id\": \"ARG_CN1957_ART19\",\n      \"name\": \"Restauracion Art 19 CN 1957\",\n      \"year\": 1957,\n      \"inheritance\": 0.6\n    }\n  ],\n  \"statistics\": {\n    \"total_descendants\": 16,\n    \"mean_inheritance\": 0.141125,\n    \"max_inheritance\": 0.658\n  }\n}",
+    "metrics": {
+      "root_id": "ARG_CN1853_ART19",
+      "root_name": "Principio de Reserva Art 19 CN 1853",
+      "jurisdiction": "Argentina",
+      "year_created": 1853,
+      "survival_years": 172,
+      "descendants_count": 16,
+      "ancestors_count": 0,
+      "mean_inheritance": 0.1411,
+      "max_inheritance": 0.658,
+      "extended_phenotype_score": 0.6103,
+      "ideology": "Conservative",
+      "mutation_rate": 0.003,
+      "network_centrality": 2
+    }
+  },
+  "ARG_CN1860_ART19": {
+    "lineage_data": "{\n  \"root\": {\n    \"id\": \"ARG_CN1860_ART19\",\n    \"name\": \"Principio de Reserva Art 19 CN 1860\",\n    \"year\": 1860,\n    \"survival_years\": 165\n  },\n  \"ancestors\": [\n    {\n      \"id\": \"ARG_CN1853_ART19\",\n      \"name\": \"Principio de Reserva Art 19 CN 1853\",\n      \"year\": 1853\n    }\n  ],\n  \"descendants\": [\n    {\n      \"id\": \"ARG_CSJN_SIRI\",\n      \"name\": \"Doctrina Amparo - Caso Siri\",\n      \"year\": 1957,\n      \"inheritance\": 0.1\n    },\n    {\n      \"id\": \"ARG_CSJN_PERALTA\",\n      \"name\": \"Amparo vs Emergencia - Caso Peralta\",\n      \"year\": 1990,\n      \"inheritance\": 0.0\n    },\n    {\n      \"id\": \"ARG_CN1949_ART28\",\n      \"name\": \"Derechos Sociales Art 28 CN 1949\",\n      \"year\": 1949,\n      \"inheritance\": 0.4\n    },\n    {\n      \"id\": \"ARG_CN1994_ART19\",\n      \"name\": \"Art 19 CN 1994 con Tratados DDHH\",\n      \"year\": 1994,\n      \"inheritance\": 0.6\n    },\n    {\n      \"id\": \"ARG_CSJN_HALABI\",\n      \"name\": \"Amparo Colectivo - Caso Halabi\",\n      \"year\": 2009,\n      \"inheritance\": 0.0\n    },\n    {\n      \"id\": \"ARG_LEY_16986\",\n      \"name\": \"Ley de Amparo 16986\",\n      \"year\": 1966,\n      \"inheritance\": 0.0\n    },\n    {\n      \"id\": \"ARG_CSJN_KOT\",\n      \"name\": \"Amparo vs Particulares - Caso Kot\",\n      \"year\": 1958,\n      \"inheritance\": 0.0\n    },\n    {\n      \"id\": \"ARG_CSJN_Q_C_S_Y\",\n      \"name\": \"Amparo Identidad - Caso Q.C.S.Y\",\n      \"year\": 2012,\n      \"inheritance\": 0.0\n    },\n    {\n      \"id\": \"ARG_CN1957_ART19\",\n      \"name\": \"Restauracion Art 19 CN 1957\",\n      \"year\": 1957,\n      \"inheritance\": 0.4\n    }\n  ],\n  \"statistics\": {\n    \"total_descendants\": 9,\n    \"mean_inheritance\": 0.16666666666666666,\n    \"max_inheritance\": 0.6\n  }\n}",
+    "metrics": {
+      "root_id": "ARG_CN1860_ART19",
+      "root_name": "Principio de Reserva Art 19 CN 1860",
+      "jurisdiction": "Argentina",
+      "year_created": 1860,
+      "survival_years": 165,
+      "descendants_count": 9,
+      "ancestors_count": 1,
+      "mean_inheritance": 0.1667,
+      "max_inheritance": 0.6,
+      "extended_phenotype_score": 0.5917,
+      "ideology": "Liberal_Constitutional",
+      "mutation_rate": 0.003,
+      "network_centrality": 4
+    }
+  },
+  "ARG_CN1994_ART19": {
+    "lineage_data": "{\n  \"root\": {\n    \"id\": \"ARG_CN1994_ART19\",\n    \"name\": \"Art 19 CN 1994 con Tratados DDHH\",\n    \"year\": 1994,\n    \"survival_years\": 31\n  },\n  \"ancestors\": [\n    {\n      \"id\": \"ARG_CN1853_ART19\",\n      \"name\": \"Principio de Reserva Art 19 CN 1853\",\n      \"year\": 1853\n    },\n    {\n      \"id\": \"ARG_CN1860_ART19\",\n      \"name\": \"Principio de Reserva Art 19 CN 1860\",\n      \"year\": 1860\n    },\n    {\n      \"id\": \"ARG_CN1957_ART19\",\n      \"name\": \"Restauracion Art 19 CN 1957\",\n      \"year\": 1957\n    }\n  ],\n  \"descendants\": [],\n  \"statistics\": {\n    \"total_descendants\": 0,\n    \"mean_inheritance\": 0.0,\n    \"max_inheritance\": 0.0\n  }\n}",
+    "metrics": {
+      "root_id": "ARG_CN1994_ART19",
+      "root_name": "Art 19 CN 1994 con Tratados DDHH",
+      "jurisdiction": "Argentina",
+      "year_created": 1994,
+      "survival_years": 31,
+      "descendants_count": 0,
+      "ancestors_count": 3,
+      "mean_inheritance": 0.0,
+      "max_inheritance": 0.0,
+      "extended_phenotype_score": 0.23,
+      "ideology": "Liberal_Constitutional",
+      "mutation_rate": 0.0,
+      "network_centrality": 1
+    }
+  },
+  "URU_CN1830_ART72": {
+    "lineage_data": "{\n  \"root\": {\n    \"id\": \"URU_CN1830_ART72\",\n    \"name\": \"Derechos Implicitos Art 72 CN 1830\",\n    \"year\": 1830,\n    \"survival_years\": 195\n  },\n  \"ancestors\": [],\n  \"descendants\": [\n    {\n      \"id\": \"URU_CN1934_ART72\",\n      \"name\": \"Art 72 CN 1934 - Crisis Terra\",\n      \"year\": 1934,\n      \"inheritance\": 0.3\n    },\n    {\n      \"id\": \"URU_CN1918_ART72\",\n      \"name\": \"Art 72 CN 1918 - Democracia\",\n      \"year\": 1918,\n      \"inheritance\": 0.4\n    }\n  ],\n  \"statistics\": {\n    \"total_descendants\": 2,\n    \"mean_inheritance\": 0.35,\n    \"max_inheritance\": 0.4\n  }\n}",
+    "metrics": {
+      "root_id": "URU_CN1830_ART72",
+      "root_name": "Derechos Implicitos Art 72 CN 1830",
+      "jurisdiction": "Uruguay",
+      "year_created": 1830,
+      "survival_years": 195,
+      "descendants_count": 2,
+      "ancestors_count": 0,
+      "mean_inheritance": 0.35,
+      "max_inheritance": 0.4,
+      "extended_phenotype_score": 0.4625,
+      "ideology": "Liberal_Constitutional",
+      "mutation_rate": 0.0,
+      "network_centrality": 1
+    }
+  },
+  "ARG_DOCTRINA_AMPARO": {
+    "lineage_data": "{\n  \"root\": {\n    \"id\": \"ARG_DOCTRINA_AMPARO\",\n    \"name\": \"Doctrina Constitucional del Amparo\",\n    \"year\": 1957,\n    \"survival_years\": 68\n  },\n  \"ancestors\": [\n    {\n      \"id\": \"ARG_CN1853_ART19\",\n      \"name\": \"Principio de Reserva Art 19 CN 1853\",\n      \"year\": 1853\n    }\n  ],\n  \"descendants\": [\n    {\n      \"id\": \"ARG_AMPARO_POR_MORA\",\n      \"name\": \"Amparo por Mora - Doctrina\",\n      \"year\": 1995,\n      \"inheritance\": 0.7719999999999999\n    },\n    {\n      \"id\": \"ARG_AMPARO_COLECTIVO\",\n      \"name\": \"Amparo Colectivo - Doctrina\",\n      \"year\": 2000,\n      \"inheritance\": 0.7419999999999999\n    },\n    {\n      \"id\": \"ARG_CSJN_MENDOZA\",\n      \"name\": \"Amparo Ambiental - Caso Mendoza\",\n      \"year\": 2008,\n      \"inheritance\": 0.0\n    },\n    {\n      \"id\": \"ARG_CN1994_ART41\",\n      \"name\": \"Derecho Ambiente Art 41 CN 1994\",\n      \"year\": 1994,\n      \"inheritance\": 0.078\n    },\n    {\n      \"id\": \"ARG_AMPARO_AMBIENTAL\",\n      \"name\": \"Amparo Ambiental - Doctrina\",\n      \"year\": 1990,\n      \"inheritance\": 0.502\n    }\n  ],\n  \"statistics\": {\n    \"total_descendants\": 5,\n    \"mean_inheritance\": 0.41879999999999995,\n    \"max_inheritance\": 0.7719999999999999\n  }\n}",
+    "metrics": {
+      "root_id": "ARG_DOCTRINA_AMPARO",
+      "root_name": "Doctrina Constitucional del Amparo",
+      "jurisdiction": "Argentina",
+      "year_created": 1957,
+      "survival_years": 68,
+      "descendants_count": 5,
+      "ancestors_count": 1,
+      "mean_inheritance": 0.4188,
+      "max_inheritance": 0.772,
+      "extended_phenotype_score": 0.5547,
+      "ideology": "Constitutional",
+      "mutation_rate": 0.016,
+      "network_centrality": 4
+    }
+  }
+}

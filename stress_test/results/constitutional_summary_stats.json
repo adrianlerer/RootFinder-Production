@@ -1,0 +1,14 @@
+{
+  "total_policies_analyzed": 5,
+  "argentina_policies": 4,
+  "uruguay_policies": 1,
+  "mean_survival_argentina": 109.0,
+  "mean_survival_uruguay": 195.0,
+  "mean_inheritance_argentina": 0.18164999999999998,
+  "mean_inheritance_uruguay": 0.35,
+  "total_descendants_argentina": 30,
+  "total_descendants_uruguay": 2,
+  "max_survival_policy": "Derechos Implicitos Art 72 CN 1830",
+  "max_descendants_policy": "Principio de Reserva Art 19 CN 1853",
+  "highest_inheritance_policy": "Doctrina Constitucional del Amparo"
+}
