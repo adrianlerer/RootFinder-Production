@@ -7,9 +7,9 @@ module.exports = {
       env: {
         NODE_ENV: 'development',
         PORT: 3000,
-        OPENROUTER_API_KEY: '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',
-        OPENAI_API_KEY: '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',
-        ANTHROPIC_API_KEY: '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'
+        OPENROUTER_API_KEY: process.env.OPENROUTER_API_KEY,
+        OPENAI_API_KEY: process.env.OPENAI_API_KEY,
+        ANTHROPIC_API_KEY: process.env.ANTHROPIC_API_KEY
       },
       env_file: '.env',
       watch: false,

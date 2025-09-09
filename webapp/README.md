@@ -26,21 +26,32 @@ Este directorio contiene la implementación completa de la aplicación web RootF
 ```bash
 cd webapp
 npm install
+
+# Configure environment variables
+cp .env.example .env
+# Edit .env with your actual API keys
+
 npm run build
 npm run dev:sandbox
 ```
 
 #### **Producción (Cloudflare Pages):**
 ```bash
-# Setup API keys
+# Setup API keys (secure method)
 npx wrangler pages secret put ANTHROPIC_API_KEY
-npx wrangler pages secret put OPENAI_API_KEY
+npx wrangler pages secret put OPENAI_API_KEY  
 npx wrangler pages secret put OPENROUTER_API_KEY
 
 # Deploy
 npm run build
 npx wrangler pages deploy dist --project-name rootfinder-production
 ```
+
+#### **⚠️ Security Note:**
+Never commit actual API keys to the repository. Always use:
+- `.env` files for local development (ignored by git)
+- `wrangler secrets` for Cloudflare Pages production
+- Environment variables for other deployment platforms
 
 ### 📋 **URLs de Producción**
 - **Principal**: https://rootfinder.legal
