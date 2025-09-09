@@ -64,14 +64,77 @@ logs/
 
 # Test outputs
 test_output/
-*.png
-*.pdf
-*.json
+results/temp/
 
 # Data files (sensitive)
 data/raw/
 data/private/
+data/confidential/
 
-# Cache
+# Research outputs (keep analysis results)
+# *.png
+# *.pdf  
+# *.json (allow structured data outputs)
+
+# Cache and temporary
 .cache/
 .pytest_cache/
+*.pyc
+__pycache__/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Academic and research
+.Rproj.user/
+*.Rproj
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.synctex.gz
+*.toc
+*.nav
+*.snm
+*.vrb
+*.out
+
+# API Keys and secrets (CRITICAL)
+*key*
+*secret*
+*token*
+*.pem
+.dev.vars
+.prod.vars
+wrangler.toml.bak
+
+# Backup and versioning
+*.backup
+*.bak
+*.orig
+.git-backup/
+
+# Large files and datasets
+*.csv.bak
+data/large/
+data/backup/
+
+# PM2 and process management
+.pm2/
+pids/
+*.pid
+*.seed
+ecosystem.config.js.bak
+
+# Cloudflare specific
+.wrangler/
+wrangler.toml.local
+
+# Analysis temporary files
+analysis_temp/
+figures_temp/
+models_temp/

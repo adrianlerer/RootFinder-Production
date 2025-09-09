@@ -3,6 +3,12 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXX)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![R](https://img.shields.io/badge/r-4.0+-blue.svg)](https://www.r-project.org/)
+[![Research Status](https://img.shields.io/badge/research-active-brightgreen.svg)](https://github.com/adrianlerer/RootFinder-Production)
+[![Reproducibility](https://img.shields.io/badge/reproducible-research-green.svg)](https://github.com/adrianlerer/RootFinder-Production/tree/main/replication)
+[![Academic](https://img.shields.io/badge/paper-SSRN-red.svg)](https://ssrn.com/abstract=XXXXXX)
+[![Methodology](https://img.shields.io/badge/methodology-ABAN-orange.svg)](https://github.com/adrianlerer/RootFinder-Production/blob/main/theory/extended-phenotype-definitions.md)
+[![Data Coverage](https://img.shields.io/badge/data-1945--2025-informational.svg)](https://github.com/adrianlerer/RootFinder-Production/tree/main/data)
 
 ## Overview
 

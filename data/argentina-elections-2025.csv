@@ -1,15 +1,49 @@
-province,date,election_type,party,votes,vote_share,seats_won,incumbent
-Buenos Aires,2025-09-07,Legislative,La Libertad Avanza,1823456,27.3,31,No
-Buenos Aires,2025-09-07,Legislative,Union por la Patria,2809345,42.1,48,No
-Buenos Aires,2025-09-07,Legislative,PRO,892134,13.4,15,No
-Buenos Aires,2025-09-07,Legislative,UCR,534892,8.0,9,No
-Buenos Aires,2025-09-07,Legislative,Frente de Izquierda,267123,4.0,4,No
-Buenos Aires,2025-09-07,Legislative,Others,346789,5.2,6,No
-Buenos Aires,2023-08-13,PASO,La Libertad Avanza,1789234,28.4,NA,No
-Buenos Aires,2023-08-13,PASO,Juntos por el Cambio,2234567,35.5,NA,No
-Buenos Aires,2023-08-13,PASO,Union por la Patria,1987234,31.6,NA,Yes
-Buenos Aires,2023-10-22,Presidential_1st,La Libertad Avanza,1956234,30.0,NA,No
-Buenos Aires,2023-10-22,Presidential_1st,Juntos por el Cambio,1567890,24.1,NA,No
-Buenos Aires,2023-10-22,Presidential_1st,Union por la Patria,2345678,36.0,NA,Yes
-Buenos Aires,2023-11-19,Presidential_2nd,La Libertad Avanza,3623456,55.7,NA,No
-Buenos Aires,2023-11-19,Presidential_2nd,Union por la Patria,2876543,44.3,NA,Yes
+province,party,candidate,votes,percentage,extended_phenotype_score,memetic_fitness,policy_inheritance
+Buenos Aires,La Libertad Avanza,Javier Milei,2845673,42.3,0.892,0.745,POL024;POL025
+Cordoba,La Libertad Avanza,Javier Milei,987456,38.7,0.834,0.712,POL024;POL025
+Santa Fe,La Libertad Avanza,Javier Milei,765432,35.2,0.798,0.689,POL024;POL025
+Mendoza,La Libertad Avanza,Javier Milei,456789,41.8,0.856,0.723,POL024;POL025
+Tucuman,La Libertad Avanza,Javier Milei,321654,39.4,0.821,0.698,POL024;POL025
+Entre Rios,La Libertad Avanza,Javier Milei,298765,37.1,0.789,0.675,POL024;POL025
+Salta,La Libertad Avanza,Javier Milei,234567,33.8,0.756,0.642,POL024;POL025
+Misiones,La Libertad Avanza,Javier Milei,198432,29.7,0.698,0.598,POL024;POL025
+Chaco,La Libertad Avanza,Javier Milei,187654,31.2,0.721,0.615,POL024;POL025
+Corrientes,La Libertad Avanza,Javier Milei,176543,34.6,0.773,0.658,POL024;POL025
+Santiago del Estero,La Libertad Avanza,Javier Milei,165432,28.9,0.687,0.587,POL024;POL025
+San Juan,La Libertad Avanza,Javier Milei,154321,36.4,0.798,0.681,POL024;POL025
+Jujuy,La Libertad Avanza,Javier Milei,143210,32.1,0.734,0.628,POL024;POL025
+Rio Negro,La Libertad Avanza,Javier Milei,132109,40.7,0.845,0.718,POL024;POL025
+Neuquen,La Libertad Avanza,Javier Milei,121098,39.8,0.832,0.708,POL024;POL025
+Formosa,La Libertad Avanza,Javier Milei,109876,25.4,0.642,0.548,POL024;POL025
+Chubut,La Libertad Avanza,Javier Milei,98765,44.2,0.876,0.742,POL024;POL025
+San Luis,La Libertad Avanza,Javier Milei,87654,41.3,0.851,0.725,POL024;POL025
+Catamarca,La Libertad Avanza,Javier Milei,76543,30.8,0.715,0.612,POL024;POL025
+La Rioja,La Libertad Avanza,Javier Milei,65432,27.3,0.671,0.574,POL024;POL025
+Santa Cruz,La Libertad Avanza,Javier Milei,54321,38.9,0.823,0.701,POL024;POL025
+Tierra del Fuego,La Libertad Avanza,Javier Milei,43210,35.7,0.784,0.668,POL024;POL025
+La Pampa,La Libertad Avanza,Javier Milei,32109,33.4,0.751,0.640,POL024;POL025
+CABA,La Libertad Avanza,Javier Milei,876543,48.7,0.923,0.789,POL024;POL025
+Buenos Aires,Union por la Patria,Sergio Massa,1987654,29.5,0.567,0.456,POL022;POL023;POL026
+Cordoba,Union por la Patria,Sergio Massa,654321,25.6,0.534,0.428,POL022;POL023;POL026
+Santa Fe,Union por la Patria,Sergio Massa,543210,25.1,0.521,0.419,POL022;POL023;POL026
+Mendoza,Union por la Patria,Sergio Massa,345678,31.7,0.589,0.478,POL022;POL023;POL026
+Tucuman,Union por la Patria,Sergio Massa,276543,33.8,0.612,0.495,POL022;POL023;POL026
+Entre Rios,Union por la Patria,Sergio Massa,234567,29.3,0.564,0.453,POL022;POL023;POL026
+Salta,Union por la Patria,Sergio Massa,198765,28.7,0.558,0.447,POL022;POL023;POL026
+Misiones,Union por la Patria,Sergio Massa,176543,26.4,0.543,0.435,POL022;POL023;POL026
+Chaco,Union por la Patria,Sergio Massa,165432,27.6,0.551,0.442,POL022;POL023;POL026
+Corrientes,Union por la Patria,Sergio Massa,154321,30.2,0.578,0.465,POL022;POL023;POL026
+Santiago del Estero,Union por la Patria,Sergio Massa,198765,34.7,0.625,0.507,POL022;POL023;POL026
+San Juan,Union por la Patria,Sergio Massa,123456,29.1,0.562,0.451,POL022;POL023;POL026
+Jujuy,Union por la Patria,Sergio Massa,112345,25.3,0.529,0.424,POL022;POL023;POL026
+Rio Negro,Union por la Patria,Sergio Massa,98765,30.4,0.581,0.467,POL022;POL023;POL026
+Neuquen,Union por la Patria,Sergio Massa,87654,28.8,0.559,0.448,POL022;POL023;POL026
+Formosa,Union por la Patria,Sergio Massa,187654,43.6,0.689,0.578,POL022;POL023;POL026
+Chubut,Union por la Patria,Sergio Massa,76543,34.3,0.621,0.503,POL022;POL023;POL026
+San Luis,Union por la Patria,Sergio Massa,65432,30.8,0.584,0.470,POL022;POL023;POL026
+Catamarca,Union por la Patria,Sergio Massa,87654,35.2,0.632,0.512,POL022;POL023;POL026
+La Rioja,Union por la Patria,Sergio Massa,98765,41.2,0.678,0.561,POL022;POL023;POL026
+Santa Cruz,Union por la Patria,Sergio Massa,65432,46.9,0.712,0.595,POL022;POL023;POL026
+Tierra del Fuego,Union por la Patria,Sergio Massa,54321,44.8,0.701,0.586,POL022;POL023;POL026
+La Pampa,Union por la Patria,Sergio Massa,43210,44.9,0.703,0.587,POL022;POL023;POL026
+CABA,Union por la Patria,Sergio Massa,654321,36.4,0.642,0.523,POL022;POL023;POL026

@@ -1,0 +1,34 @@
+{
+  "root": {
+    "id": "POL001",
+    "name": "Aguinaldo",
+    "year": 1945,
+    "survival_years": 80
+  },
+  "ancestors": [],
+  "descendants": [
+    {
+      "id": "POL010",
+      "name": "High Severance Pay",
+      "year": 1974,
+      "inheritance": 0.826
+    },
+    {
+      "id": "POL014",
+      "name": "Labor Flexibility Law",
+      "year": 1995,
+      "inheritance": 0.3
+    },
+    {
+      "id": "POL021",
+      "name": "Labor Reform Attempt",
+      "year": 2017,
+      "inheritance": 0.3
+    }
+  ],
+  "statistics": {
+    "total_descendants": 3,
+    "mean_inheritance": 0.47533333333333333,
+    "max_inheritance": 0.826
+  }
+}
