@@ -1,0 +1,26 @@
+policy_id,policy_name,year_created,year_terminated,parent_policy,policy_type,government,survival_years,descendants_count,ideological_orientation
+POL001,Aguinaldo,1945,NA,NA,Labor,Peron,80,5,Populist
+POL002,Sindicato Unico,1945,NA,NA,Labor,Peron,80,8,Populist
+POL003,Import Substitution,1946,1976,NA,Trade,Peron,30,12,Populist
+POL004,Price Controls,1946,NA,NA,Economic,Peron,Cyclical,15,Populist
+POL005,YPF Nationalization,1946,1993,NA,Energy,Peron,47,2,Populist
+POL006,Central Bank Nationalization,1946,NA,NA,Monetary,Peron,79,0,Populist
+POL007,Trade Liberalization I,1976,1981,NA,Trade,Videla,5,0,Liberal
+POL008,Financial Reform,1977,1982,NA,Financial,Martinez de Hoz,5,1,Liberal
+POL009,Obras Sociales,1970,NA,POL002,Health,Military,55,4,Populist
+POL010,High Severance Pay,1974,NA,POL001,Labor,Peron,51,2,Populist
+POL011,Convertibility,1991,2001,NA,Monetary,Menem,10,0,Liberal
+POL012,YPF Privatization,1993,2012,POL005,Energy,Menem,19,0,Liberal
+POL013,AFJP Pension System,1994,2008,NA,Social Security,Menem,14,0,Liberal
+POL014,Labor Flexibility Law,1995,2000,POL010,Labor,Menem,5,0,Liberal
+POL015,Universal Child Allowance,2009,NA,NA,Social,Cristina Kirchner,16,2,Populist
+POL016,YPF Renationalization,2012,NA,POL012,Energy,Cristina Kirchner,13,0,Populist
+POL017,Precios Cuidados,2013,NA,POL004,Economic,Cristina Kirchner,12,1,Populist
+POL018,Import Restrictions,2011,2015,POL003,Trade,Cristina Kirchner,4,1,Populist
+POL019,Capital Controls Removal,2015,2019,NA,Financial,Macri,4,0,Liberal
+POL020,Export Tax Reduction,2016,2019,NA,Trade,Macri,3,0,Liberal
+POL021,Labor Reform Attempt,2017,2018,POL014,Labor,Macri,1,0,Liberal
+POL022,Capital Controls Reimposed,2019,NA,POL019,Financial,Alberto Fernandez,6,0,Populist
+POL023,Export Tax Increase,2019,NA,POL020,Trade,Alberto Fernandez,6,1,Populist
+POL024,Fiscal Adjustment,2024,NA,NA,Fiscal,Milei,1,0,Liberal
+POL025,Deregulation Decree,2023,NA,NA,Regulatory,Milei,2,0,Liberal

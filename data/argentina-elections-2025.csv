@@ -1,0 +1,15 @@
+province,date,election_type,party,votes,vote_share,seats_won,incumbent
+Buenos Aires,2025-09-07,Legislative,La Libertad Avanza,1823456,27.3,31,No
+Buenos Aires,2025-09-07,Legislative,Union por la Patria,2809345,42.1,48,No
+Buenos Aires,2025-09-07,Legislative,PRO,892134,13.4,15,No
+Buenos Aires,2025-09-07,Legislative,UCR,534892,8.0,9,No
+Buenos Aires,2025-09-07,Legislative,Frente de Izquierda,267123,4.0,4,No
+Buenos Aires,2025-09-07,Legislative,Others,346789,5.2,6,No
+Buenos Aires,2023-08-13,PASO,La Libertad Avanza,1789234,28.4,NA,No
+Buenos Aires,2023-08-13,PASO,Juntos por el Cambio,2234567,35.5,NA,No
+Buenos Aires,2023-08-13,PASO,Union por la Patria,1987234,31.6,NA,Yes
+Buenos Aires,2023-10-22,Presidential_1st,La Libertad Avanza,1956234,30.0,NA,No
+Buenos Aires,2023-10-22,Presidential_1st,Juntos por el Cambio,1567890,24.1,NA,No
+Buenos Aires,2023-10-22,Presidential_1st,Union por la Patria,2345678,36.0,NA,Yes
+Buenos Aires,2023-11-19,Presidential_2nd,La Libertad Avanza,3623456,55.7,NA,No
+Buenos Aires,2023-11-19,Presidential_2nd,Union por la Patria,2876543,44.3,NA,Yes
